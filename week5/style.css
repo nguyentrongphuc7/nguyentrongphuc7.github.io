@@ -1,0 +1,72 @@
+body {
+    background-color: #bfa66b; /* Màu nền */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #8b5e3b;
+    color: white;
+    font-size: 24px;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #e1d0a3;
+    width: 30%;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.card a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #8b5e3b;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #704a2d;
+}
